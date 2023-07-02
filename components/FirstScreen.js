@@ -54,7 +54,7 @@ const FirstScreen = ({ navigation }) => {
               { cancelable: false }
             );
           } else {
-            alert('Please insert a valid User Id');
+            Alert.alert('Please insert a valid User Id');
           }
         }
       );
